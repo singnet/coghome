@@ -1,4 +1,6 @@
 from queue import Queue
+import sys
+sys.path.append('../')
 from coghome.hass_communicator import start_HassCommunicator_in_thread
 from coghome.home_state import HomeState
 from coghome.event import Event
