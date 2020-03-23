@@ -14,3 +14,6 @@ First, you need to configure your local Home Assistant server and get URI and ac
 
 `event.py` implements `Event` class, which represents an event accessible by OpenCog via `GroundedObjectNode`.
 
+## examples
+
+`examples` folder contains basic example of using coghome module. The most basic usage consists in sending commands directly to entities via `ApplyLink(MethodOfLink(GroundedObjectNode(entity_id), ConceptNode("send_simple_command")), ListLink(command_name))`. Then, one can use `BindLink`, which premises can contain both conditions on events (thus implementing automations) and conditions on variables to be grounded in the knowledge base and event data (thus making general rules possible). The Unified Rule Engine (URE) can be used to chain rules and perform reasoning (not presented in examples yet).
