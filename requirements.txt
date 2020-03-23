@@ -1,4 +1,4 @@
 # opencog should be installed
-# for example you could use singularitynet/opencog-dev:cli in install
-# this requirements there
+# in particular, you can use singularitynet/opencog-dev:cli and
+# install this requirement there
 websockets
